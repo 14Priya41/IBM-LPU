@@ -22,7 +22,7 @@ public class App
 		
 		  String str[]=UUID.randomUUID().toString().split("-");
 		 account.setAccountNumber(str[0]);
-		  account.setAccountType(AccountType.SAVINGS);
+		  account.setAccountType("SAVINGS");
 		  account.setInitialBalance(100000); 
 		  account =service.createAccount(account);
 		 
@@ -31,7 +31,7 @@ public class App
 		account.setInitialBalance(600000);
 		  
 		  account.setAccountNumber("761c7f3d");
-		  account.setAccountType(AccountType.CURRENT);
+		  account.setAccountType("CURRENT");
 		  
 		  account=service.createAccount(account);
 		  

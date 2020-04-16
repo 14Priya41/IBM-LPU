@@ -16,7 +16,7 @@ import lombok.ToString;
 @Component
 public class Account {
 	private String accountNumber;
-	private AccountType accountType;
+	private String accountType;
 	private int initialBalance;
 	
     

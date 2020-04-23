@@ -5,7 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Driver {
 	public static void main(String[] args) {
-
+		
+      //this is to convert json string to pojo object
 		try {
 			
 			// create object mapper

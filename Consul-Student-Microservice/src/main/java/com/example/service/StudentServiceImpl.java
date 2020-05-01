@@ -25,6 +25,6 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public Iterable<Student> findBySchoolName(String school_name) {
-		return studentDao.findBySchoolname(school_name);
+		return studentDao.findBySchoolName(school_name);
 	}
 }

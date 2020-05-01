@@ -11,5 +11,5 @@ import com.example.model.Student;
 public interface StudentDAO extends CrudRepository<Student, Integer> {
 
 	@Query
-	public Iterable<Student> findBySchoolname(String school_name);
+	public Iterable<Student> findBySchoolName(String school_name);
 }

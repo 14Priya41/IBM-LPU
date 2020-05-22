@@ -24,7 +24,7 @@ spring:
       ddl-auto: update
 
   datasource:
-    url: jdbc:mysql://localhost:3306/lpu
+    url: jdbc:mysql://localhost:3306/lpu?useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: toor123@
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
